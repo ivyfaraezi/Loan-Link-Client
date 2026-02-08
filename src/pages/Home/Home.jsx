@@ -177,9 +177,12 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <h2 className="section-title font-heading">Explore Our Loan Options</h2>
+            <h2 className="section-title font-heading">
+              Explore Our Loan Options
+            </h2>
             <p className="section-subtitle">
-              Find the perfect microloan plan designed to match your financial goals
+              Find the perfect microloan plan designed to match your financial
+              goals
             </p>
           </motion.div>
 
@@ -200,7 +203,7 @@ const Home = () => {
                   <div className="relative overflow-hidden">
                     <img
                       src={
-                        loan.images?.[0] ||
+                        loan.image ||
                         "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400"
                       }
                       alt={loan.title}
@@ -269,7 +272,9 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-center mb-14"
           >
-            <h2 className="section-title font-heading">Simple & Fast Process</h2>
+            <h2 className="section-title font-heading">
+              Simple & Fast Process
+            </h2>
             <p className="section-subtitle">
               From application to approval — experience a seamless journey
             </p>
@@ -332,10 +337,10 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <h2 className="section-title font-heading">
-              Voices of Trust
-            </h2>
-            <p className="section-subtitle">Hear from people who transformed their dreams into reality</p>
+            <h2 className="section-title font-heading">Voices of Trust</h2>
+            <p className="section-subtitle">
+              Hear from people who transformed their dreams into reality
+            </p>
           </motion.div>
 
           <Swiper
@@ -395,7 +400,9 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <h2 className="section-title font-heading">The LoanLink Advantage</h2>
+            <h2 className="section-title font-heading">
+              The LoanLink Advantage
+            </h2>
             <p className="section-subtitle">
               Built on trust, powered by technology — here's what sets us apart
             </p>
